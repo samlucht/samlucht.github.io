@@ -1,0 +1,374 @@
+
+.container-fluid{
+    padding: 0;
+}
+.pageNav{
+    float: left;
+    background-color: #6B3588;
+    width: 150px;
+    height: 90vh;
+    margin: 0;
+    padding-top: 50px;
+    text-align: center;
+}
+.pageNav i{
+    font-size: 2em;
+    margin-top: 15px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: #95BD44;
+}
+.active{
+    color:  #D8F3A3;
+}
+.courseChangeNav{
+    height: 10vh;
+    margin: 0;
+    width: 150px;
+    background-color: blue;
+    color: white;
+}
+.messageArea{
+    width: 100%;
+}
+.sendMessageText {
+    min-height: 50px;
+    width: 500px;
+    border: 3px solid #cccccc;
+    border-radius: 15px;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-position: bottom right;
+    background-repeat: no-repeat;
+    resize: none;
+
+}
+
+.dropdown{
+    text-align: center;
+    padding-top: 15px;
+}
+.dropdown-toggle{
+    color: white;
+    text-align: center;
+}
+.dropdown-toggle:hover{
+    color: white;
+}
+
+
+.message{
+    /* flex: 1 1 auto; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.17);
+    border-radius: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+    width: 100%;
+}
+.sendMessageArea{
+    /* padding-left: 100px; */
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    margin-left:-300px;
+
+}
+.inbound{
+    text-align: left;
+}
+.outbound{
+    text-align: right;
+    /* margin-right: 30px; */
+}
+.chat{
+    width: 65%;
+    padding: 0;
+    float: left;
+    position: relative;
+    height: 100vh;
+}
+.filter{
+    width: 20%;
+    background-color: #5173C0;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    
+}
+.filter h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.navbar{
+    width: 15%;
+    padding: 0;
+    float: left;
+}
+#sendBtn{
+    width: 100px;
+    border-radius: 80px;
+    margin-left: 10px;
+}
+.timestamp{
+    opacity: 0.5;
+    font-size: 0.8rem;
+    color: black;
+}
+
+.btn-1{
+    background-color: #5436B4;
+    color: white;
+}
+
+.btn-2{
+    background-color: #4D31A7;
+    color: white;
+}
+
+.btn-3{
+    background-color: #40298B;
+    color: white;
+}
+
+.btn-4{
+    background-color: #362375;
+    color: white;
+}
+.btn-1:hover{
+    background-color: #5C3CC5;
+    color: white;
+}
+
+.btn-2:hover{
+    background-color: #5C3CC5;
+    color: white;
+}
+
+.btn-3:hover{
+    background-color: #5C3CC5;
+    color: white;
+}
+
+.btn-4:hover{
+    background-color: #5C3CC5;
+    color: white;
+}
+
+
+/* GROUPS.HTML */
+
+.groupsChat{
+    width: 45%;
+    padding: 0;
+    float: left;
+    position: relative;
+    height: 100vh;
+}
+.groupsSideBar{
+    width: 40%;
+    background-color: #5173C0;
+    height: 100vh;
+    float: left;
+}
+.groupsSideBar h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+
+.taskDelegation{
+    height: 70%;
+}
+
+.myGroup{
+    height: 20%;
+    
+}
+.circle{
+    border-radius: 100%;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+}
+.addCircle{
+    background-color: #AAAAAA;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.addCircle:hover{
+    background-color: white;
+}
+.circleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.studentNumInput{
+    width: 60%;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.studentNumButton{
+    float: right;
+    margin-right: 50px;
+     margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.editAssignmentBtn{
+    float: right;
+}
+.myTasks{
+    margin-top: 20px;
+}
+
+.delegateAssignment li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.delegateBadge{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.delegateBadge:hover{
+    background-color: blue;
+}
+.activeBadge{
+    background-color: #5C3CC5;
+}
+.delegateBadgeSidebar{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.slider{
+    margin-left: 5px;
+    
+}
+.progressText{
+    margin-left: 50px;
+    color: grey;
+}
+
+/* Star Rating */
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
+/* Star Rating */
+
+.prevStudySesh{
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+
+}
+
+.prevStudyMembers{
+    margin-top: 15px;
+}
+.prevStudyStrong{
+    color: grey;
+}
+.prevStudyStrong:hover{
+    color: black;
+}
+
+.activeStrong{
+    color: blue !important;
+}
+
+.session{
+    border: 1px solid grey;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 3px;
+    font-size: 1.5em;
+    color: black;
+    background-color: #D1D1D1;
+}
+.session p{
+    font-size: 0.6em;
+    color: #696969;
+}
+.session button{
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+}
+
+.btn-danger{
+    margin-top: 20px;
+}
+
+.plusOne{
+    float: right;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2D54FF;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+.message:hover .plusOne{
+    opacity: 1;
+}
+.topic{
+    border-bottom: 1px solid #2D54FF;
+    margin-left: -65px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: none;
+}
+.topic span{
+    color: green;
+}
